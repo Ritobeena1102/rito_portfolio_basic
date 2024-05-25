@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1a1a1a; /* Dark background for contrast */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0.5rem 0;
+}
+
+.contact-info a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+section {
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 80%;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    border-bottom: 2px solid #002366; /* Royal Blue */
+    padding-bottom: 0.5rem;
+    color: #002366; /* Royal Blue */
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    margin-right: 1rem;
+    width: 150px;
+    height: 150px;
+}
+
+.internship, .project {
+    margin-bottom: 2rem;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+/* Background images */
+body {
+    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+}
+
+section {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+}
+
+a {
+    color: #0077be; /* Ocean Blue */
+}
+
+a:hover {
+    color: #005bb5; /* Darker Ocean Blue */
+}
+
+header h1, header p, section h2, .contact-info a {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-photo {
+        margin-bottom: 1rem;
+    }
+
+    .skills-content {
+        flex-direction: column;
+    }
+}
